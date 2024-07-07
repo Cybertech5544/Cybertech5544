@@ -44,13 +44,21 @@ header {
         background: red;
         
     }
-}
-@media (max-width: 888px){
     header h1{
         font-size: 50px;
         
     }
+    .diagram img {
+
+        flex-wrap: wrap;
+
+    
+    }
+
+
+
 }
+
 /* @media (max-width:300px){
     header h1{
         font-size: 30px;
@@ -81,17 +89,20 @@ section {
 }
 
 .diagram {
+    background: ;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     /* text-align: center; */
 }
 
 .diagram img {
+    display:inline-block;
     width: 30%;
     border: 1.5px solid #ff0000;
     border-radius: 5px;
     /* margin: 10px; */
-    margin-left: 20px;
+    /* margin-left: 20px; */
 }
 
 ol,
@@ -125,17 +136,20 @@ footer {
 
 
 marquee {
+    align-items: center;
     display: flex;
     justify-content: center;
     box-shadow: 0 1px 3px rgba(0, 0, 0, .1);
     border: 1px solid rgba(0, 0, 0, .15);
     background-color: #ffffff;
-    padding: 10px;
+    /* padding: 10px; */
     height: 327px;
     width: 100%;
+
     
 }
 marquee img{
     height: 324px;
     margin-right: 20px;
+
 }
