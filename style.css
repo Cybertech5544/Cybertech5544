@@ -39,7 +39,7 @@ header {
     padding: 15px 0;
     text-align: center;
 }
-@media (max-width: 888px){
+@media screen and (max-width: 888px){
     header{
         background: red;
         
@@ -48,6 +48,7 @@ header {
         font-size: 50px;
         
     }
+
 }
 
 /* @media (max-width:300px){
@@ -99,7 +100,7 @@ section {
     /* margin-left: 20px; */
 }
 
-@media (max-width: 888px){
+@media screen and (max-width: 888px){
     .diagram img{
         flex-wrap: wrap;
         width: 100%;
