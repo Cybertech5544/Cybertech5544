@@ -144,8 +144,11 @@ marquee img{
         
     }
     header h1{
-        font-size: 50px;
+        font-size: 40px;
         
+    }
+    header h2{
+        font-size: 15px;
     }
     .diagram img{
         flex-wrap: wrap;
@@ -153,4 +156,7 @@ marquee img{
         margin-top: 10px;
     }
     
+    footer{
+        font-size: 10px;
+    }
 }
