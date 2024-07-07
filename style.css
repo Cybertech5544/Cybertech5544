@@ -39,17 +39,6 @@ header {
     padding: 15px 0;
     text-align: center;
 }
-@media screen and (max-width: 888px){
-    header{
-        background: red;
-        
-    }
-    header h1{
-        font-size: 50px;
-        
-    }
-
-}
 
 /* @media (max-width:300px){
     header h1{
@@ -57,18 +46,18 @@ header {
         }
         } */
         h1 {
-    font-size: 70px;
-}
-
-h2 {
-    color: wheat;
-    font-size: 20px;
-    font-family: "Archivo Black", sans-serif;
-}
-
-h3 {
-    font-family: "Black Ops One", system-ui;
-    color: #ff0404;
+            font-size: 70px;
+        }
+        
+        h2 {
+            color: wheat;
+            font-size: 20px;
+            font-family: "Archivo Black", sans-serif;
+        }
+        
+        h3 {
+            font-family: "Black Ops One", system-ui;
+            color: #ff0404;
     font-size: 20px;
 }
 
@@ -100,13 +89,6 @@ section {
     /* margin-left: 20px; */
 }
 
-@media screen and (max-width: 888px){
-    .diagram img{
-        flex-wrap: wrap;
-        width: 100%;
-        margin-top: 10px;
-    }
-}
 ol,
 ul {
     margin-left: 20px;
@@ -147,11 +129,28 @@ marquee {
     /* padding: 10px; */
     height: 327px;
     width: 100%;
-
+    
     
 }
 marquee img{
     height: 324px;
     margin-right: 20px;
+    
+}
 
+@media screen and (max-width: 888px){
+    header{
+        background: red;
+        
+    }
+    header h1{
+        font-size: 50px;
+        
+    }
+    .diagram img{
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: 10px;
+    }
+    
 }
